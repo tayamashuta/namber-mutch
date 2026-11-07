@@ -1,0 +1,22 @@
+:root {
+  font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', Meiryo, sans-serif;
+  color: #202020;
+  background: #f7f7f7;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  --ink: #202020;
+  --muted: #777;
+  --green: #292929;
+  --green-dark: #111;
+  --green-pale: #f0f0f0;
+  --line: #e5e5e5;
+}
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button { font: inherit; }
+button:focus-visible, a:focus-visible { outline: 3px solid #777; outline-offset: 3px; }
+::selection { color: #111; background: #ddd; }
